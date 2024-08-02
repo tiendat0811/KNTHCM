@@ -1,0 +1,21 @@
+Một số kiến thức nên ôn tập
+
+Trình bày thuật toán Linklist, Arraylist, stack, queue 
+
+Chuyển đổi từ số nhị phân sang thập phân, thập lục phân 
+
+Tìm số nguyên tố. Nhập vào số N hỏi số đó có phải là số nguyên tố hay không. Nếu đúng thỉ trả về 1 còn không thì -1 
+
+Nhập một số dương N (kích cỡ mảng) (0 <= N <= 1000) và một dãy số N. Nhập X và tìm x. 
+
+Tìm số Fibonacci thứ n(học cuối) 
+
+Tìm ước chung lớn nhất, bội chung nhỏ nhất 
+
+Tìm số hoàn hảo 
+
+Tìm số palindromic number 
+
+Tìm dãy số con tăng dần dài nhất (1 2 3 4 7 8 1 2 3 4 5 6 9) 
+
+Tìm hoán vị (permutation) 
