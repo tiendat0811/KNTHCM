@@ -1,4 +1,8 @@
+// Viết chương trình nhập vào một số nguyên dương N (0 <=N <=1000), và tiếp theo là dãy số gồm N số nguyên từ bàn phím (theo đúng thứ tự).
+// Dem so luong s6 khic nhau co trong mang.
+// In kết quả, là một số nguyên duy nhất, là sổ lượng số khác nhau tìm được.
 import java.util.*;
+
 public class cau1 {
     public static void main(String args[]){
         // input 0 <= n <= 1000
