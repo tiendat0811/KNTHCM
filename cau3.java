@@ -1,18 +1,14 @@
-// c. Cho một số nguyên dương, số nguyên đào ngược thu được bằng cách viết các chữ số theo thứ tự ngược lại. Nhập vảo một số nguyên dương, hãy tính hiệu của số nguyên này với số nguyên đảo ngược của
-// Vị đụ: 113 - 311 =-198
-// 4. Xem số vừa nhập là dãy các ký số khác nhau. Tim tất cả hoán vị có thể có của số dã nhập, mỗi hoán vị
-// Ii mot cach sip xen cac ky so
-// In kdt qua tht ca cac hoan vi, moi hoin vi la mot diay lay s6 ien tue nam cich mhau khoing tring.
-// Vi du
-// Nhập:
-// Kết quả:
-// 123
-// -198
-// (Caua)
-// 123 132,213 231 312.321 (Cub)
-// Chúý (để chấm tự động):
-// ••
-// Đầu vào chi nhận các sổ nguyên, không nhập thêm gì khác
+
+// Câu 3. (2.5 điểm) Tên file chương trình: cau3.*
+// c . Cho một số nguyên dương, số nguyên đảo ngược thu được bằng cách viết các chữ số theo thứ tự ngược lại. 
+// Nhập vào một số nguyên dương, hãy tính hiệu của số nguyên này với số nguyên đảo ngược của nó.
+// Vi du: 113-311 = 198
+// A. Xem số vừa nhập là dãy các ký số khác nhau. Tim tất cả hoán vị có thể có của số đã nhập, mỗi hoán vị là một cách sắp xếp các ký số
+// In kết quả tất cả các hoán vị, mỗi hoán vị là một dãy ký số liên tục nằm cách nhau khoảng trắng.
+// Vi du:
+// Nhập: 123
+// Kết quả: -198 (Câu a)
+// 123 132 213 231 312 321 (Câu b)
 import java.util.*;
 
 public class cau3{
