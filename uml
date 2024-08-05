@@ -1,0 +1,46 @@
+@startuml
+
+left to right direction
+
+actor Customer as C
+actor Manager as M
+actor Shipper as S
+
+rectangle "Hệ Thống Quản Lý" {
+    usecase UC1 as "Đăng nhập"
+    usecase UC2 as "Quản lý sản phẩm"
+    usecase UC3 as "Quản lý đơn hàng"
+    usecase UC4 as "Xem sản phẩm"
+    usecase UC5 as "Đặt đơn hàng"
+    usecase UC6 as "Cập nhật trạng thái giao hàng"
+    usecase UC7 as "Theo dõi đơn hàng"
+}
+
+M --> UC1
+M --> UC2
+M --> UC3
+M --> UC4
+M --> UC7
+
+C --> UC5
+C --> UC4
+C --> UC7
+
+S --> UC1
+S --> UC6
+S --> UC7
+
+UC2 .> UC1 : <<extend>>
+UC3 .> UC1 : <<extend>>
+UC6 .> UC1 : <<extend>>
+
+skinparam {
+    BackgroundColor #F5F5F5
+    ArrowColor #003366
+    ActorFontName Arial
+    ActorFontSize 12
+    UseCaseFontName Arial
+    UseCaseFontSize 14
+}
+
+@enduml
